@@ -1,0 +1,40 @@
+.collapse {
+  visibility: visible;
+}
+
+.accordion {
+  --bs-accordion-border-width: unset !important;
+  --bs-accordion-border-radius: unset !important;
+}
+
+.accordion-item {
+  background-color: unset !important;
+  border-bottom: 1px solid #ffffff47;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: unset !important;
+}
+
+.accordion-button:focus {
+  border: unset !important;
+  box-shadow: unset !important;
+}
+
+button.accordion-button.collapsed {
+  font-family: "power" !important;
+  color: white;
+}
+
+button.accordion-button {
+    font-family: 'power' !important;
+  color: white !important;
+}
+
+.accordion-body {
+  color: white !important;
+}
+
+.accordion-bg { 
+  background: rgb(255 255 255 / 5%);
+}

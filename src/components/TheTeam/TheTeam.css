@@ -1,0 +1,19 @@
+.team-card {
+  padding: 8px;
+  -webkit-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  -ms-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  -o-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -o-border-radius: 32px;
+  -ms-border-radius: 32px;
+  border-radius: 32px;
+  background: rgb(255 255 255 / 5%);
+}
+
+.prosox-img {
+  width: 100%;
+  object-fit: cover;
+}

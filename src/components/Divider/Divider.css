@@ -1,0 +1,8 @@
+/* .divider-image { 
+    position: relative;
+    z-index: 5;
+} */
+
+.width-divider { 
+    width: 6rem !important;
+}

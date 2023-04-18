@@ -1,0 +1,36 @@
+#HomeSectionOne {
+  position: relative;
+  z-index: 5;
+}
+
+#HomeSectionOne::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/gradientbg.png");
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  mix-blend-mode: darken;
+  opacity: 0.1;
+}
+
+.bg-custom-color {
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  border: unset !important;
+}
+
+.bg-custom-color:hover {
+  background-image: linear-gradient(95deg, #ff00ea, #2600fc);
+  border: unset !important;
+}
+
+a svg {
+  transition: all 0.5s;
+}
+
+a:hover svg {
+  transform: translateX(50%);
+  transition: all 0.5s;
+}
