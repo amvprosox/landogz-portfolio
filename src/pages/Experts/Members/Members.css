@@ -1,0 +1,16 @@
+.custom-box-border { 
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.hr-custom-member { 
+    border-top: 1px solid white;
+}
+
+.bg-skills-custom { 
+    background-color: #2600fc;
+    background-image: linear-gradient(25deg, #1f00fc, #9000b7);
+}
+
+.bg-skills-custom p { 
+    font-weight: 600;
+}

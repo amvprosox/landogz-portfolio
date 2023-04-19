@@ -1,0 +1,37 @@
+#Experts { 
+    background-color: none !important;
+}
+
+.custom-border-experts { 
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.border-right-custom { 
+    border-right: 1px solid rgb(63, 63, 63);
+}
+
+.border-bottom-custom { 
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+.border-top-custom { 
+    border-top: 1px solid rgb(63, 63, 63);
+}
+
+@media only screen and (max-width: 992px) { 
+    .removed-right-border { 
+        border-right:  unset !important;
+    }
+
+    .added-right-border { 
+        border-right: 1px solid rgb(63, 63, 63);
+    }
+    
+    .removed-bottom-border { 
+        border-bottom:  unset !important;
+    }
+
+    .added-bottom-border { 
+        border-bottom: 1px solid rgb(63, 63, 63);
+    }
+}

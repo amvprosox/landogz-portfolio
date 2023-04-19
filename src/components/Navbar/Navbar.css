@@ -1,0 +1,52 @@
+.bx-menu { 
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    padding: 1rem;
+    position: fixed;
+    top: 3%;
+    left: 5.7%;
+    z-index: 6;
+}
+
+.navbar-custom-style { 
+    position: fixed;
+    height: 120vh;
+    background-image: linear-gradient(96deg, #2E0249, #570A57);
+    max-width: 20rem;
+    min-width: 20rem;
+    z-index: 6;
+    word-wrap: break-word;
+    left: -150%;
+    transition: all .7s;
+}
+
+.navbar-show {
+    left: 0;
+    transition: all .7s;
+}
+
+.ul-position { 
+    position: absolute;
+    top: 15vh;
+    margin-left: 2rem;
+}
+
+ul li { 
+    margin: 4rem 0;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.bx { 
+    cursor: pointer;
+}
+
+.bx-x {
+    position: absolute;
+    margin-left: 2rem;
+    right: 0;
+    color: white !important;
+    background-color: crimson;
+    padding: .2rem .5rem;
+}

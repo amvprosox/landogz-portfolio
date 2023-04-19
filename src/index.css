@@ -14,7 +14,7 @@
 
   color-scheme: light dark;
   color: white;
-  background-color: #0e0217;
+  /* background-color: #0e0217; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,6 +45,10 @@ h6 {
   font-family: "power" !important;
   font-weight: 800 !important;
   color: white;
+}
+
+ul li a{ 
+  font-family: "power" !important;
 }
 
 p {
