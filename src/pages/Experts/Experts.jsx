@@ -63,7 +63,7 @@ const Experts = () => {
                         </a>
                     </div>
                     <div className="col added-bottom-border border-right-custom removed-right-border p-5 h-100">
-                        <a href="">
+                        <a href="/jemuel">
                             <div className="h-100">
                                 <img src="/images/jem.jpg" alt="" className="img-fluid rounded-3xl" />
 

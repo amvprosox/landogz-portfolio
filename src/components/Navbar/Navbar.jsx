@@ -23,17 +23,21 @@ const Navbar = () => {
 
             <ul className='ul-position'>
                 <li>
-                    <a className='text-xl text-uppercase' href="/">Home</a>
+                    <a className='text-xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-uppercase' href="/">Home</a>
                 </li>
+                <hr className='hr-navbar' />
                 <li>
-                    <a className='text-xl text-uppercase' href="">Projects</a>
+                    <a className='text-xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-uppercase' href="">Projects</a>
                 </li>
+                <hr className='hr-navbar' />
                 <li>
-                    <a className='text-xl text-uppercase' href="/experts">Experts</a>
+                    <a className='text-xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-uppercase' href="/experts">Experts</a>
                 </li>
+                <hr className='hr-navbar' />
                 <li>
-                    <a className='text-xl text-uppercase' href="">About Us</a>
+                    <a className='text-xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl text-uppercase' href="">About Us</a>
                 </li>
+               
             </ul>
         </nav>
     </section>

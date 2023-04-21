@@ -1,5 +1,5 @@
 .collapse {
-  visibility: visible;
+  visibility: visible !important;
 }
 
 .accordion {

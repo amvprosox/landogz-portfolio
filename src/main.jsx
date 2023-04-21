@@ -1,9 +1,12 @@
 import React from 'react'
+import { gsap } from "gsap";
 import ReactDOM from 'react-dom/client'
 import Homepage from './pages/Homepage'
 import Experts from './pages/Experts/Experts'
 import { Rolan } from './pages/Experts/Members/Rolan'
 import { Prosox } from './pages/Experts/Members/Prosox'
+import { Olok } from './pages/Experts/Members/Olok'
+import { Jemuel } from './pages/Experts/Members/Jemuel'
 import './index.css'
 
 import { 
@@ -11,7 +14,7 @@ import {
 	RouterProvider,
 	Route,
 } from "react-router-dom"
-import { Olok } from './pages/Experts/Members/Olok'
+
 
 const router = createBrowserRouter([
 	{
@@ -34,6 +37,11 @@ const router = createBrowserRouter([
 	{
 		path: "olok",
 		element: <Olok/>,
+	}
+	,
+	{
+		path: "jemuel",
+		element: <Jemuel/>,
 	}
 ])
 

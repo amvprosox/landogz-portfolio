@@ -11,9 +11,9 @@
 .navbar-custom-style { 
     position: fixed;
     height: 120vh;
-    background-image: linear-gradient(96deg, #2E0249, #570A57);
-    max-width: 20rem;
-    min-width: 20rem;
+    background-image: linear-gradient(96deg, #03001C, #301E67);
+    max-width: 100%;
+    min-width: 100%;
     z-index: 6;
     word-wrap: break-word;
     left: -150%;
@@ -27,16 +27,28 @@
 
 .ul-position { 
     position: absolute;
-    top: 15vh;
-    margin-left: 2rem;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-inline: auto;
 }
 
 ul li { 
     margin: 4rem 0;
     color: white;
+    text-align: center;
     font-weight: 600;
     
 }
+
+ul li a { 
+    letter-spacing: 15px;
+}
+
+.hr-navbar { 
+    border-top: 1px solid white;
+}
+
 
 .bx { 
     cursor: pointer;

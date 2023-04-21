@@ -8,8 +8,8 @@ const HomeSectionOne = () => {
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 align-items-center gy-5 gy-sm-5 gy-md-0">
           <div className="col">
             <h1 className="text-6xl md:text-5xl lg:text-8xl text-white title-font">
-              Landogz <br />
-              Web Solutions <br /> Services
+              <span>Landogz</span> <br />
+              <span>Web Solutions</span> <br /> <span>Services</span>
             </h1>
             <p className="mt-4 text-gray-300 text-base md:text-1xl lg:text-2xl">
               A company that provides a range of <br />
@@ -58,33 +58,6 @@ const HomeSectionOne = () => {
             </div>
           </div>
         </div>
-
-		{/* <div className="row row-cols-md-4 row-cols-lg-6 align-items-center gy-5 mt-7">
-			<div className="col">
-				<img src="/images/react.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/js.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/laravel.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/vue.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/shopify.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/html.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/java.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-			<div className="col">
-				<img src="/images/php.svg" alt="" className="img-fluid d-block mx-auto logo-programming" />
-			</div>
-		</div> */}
       </div>
     </section>
   );

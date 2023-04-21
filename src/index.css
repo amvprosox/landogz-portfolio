@@ -35,13 +35,21 @@ body {
   word-wrap: break-word;
 }
 
+.smooth-scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+
 .title-font,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h1 span {
   font-family: "power" !important;
   font-weight: 800 !important;
   color: white;
