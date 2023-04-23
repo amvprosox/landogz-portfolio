@@ -79,23 +79,23 @@ const Experts = () => {
                             </div>
                         </a>
                     </div>
-                    <div className="col border-right-custom p-5 h-100">
-                        <a href="">
-                            <div className="h-100">
-                                <img src="/images/rey.jpg" alt="" className="img-fluid rounded-3xl" />
+//                     <div className="col border-right-custom p-5 h-100">
+//                         <a href="">
+//                             <div className="h-100">
+//                                 <img src="/images/rey.jpg" alt="" className="img-fluid rounded-3xl" />
 
-                                <h1 className="mt-4 text-2xl">Rey John B. Dayo</h1>
-                                <p className='mt-1 text-gray-400'>Full Stack Developer</p>
-                                <div className="social-media-expert title-project-count text-2xl text-gray-100 mt-3">
-                                    <i class='bx bxl-facebook-circle mx-1'></i>
-                                    <i class='bx bxl-instagram-alt mx-1' ></i>
-                                    <i class='bx bxl-linkedin-square mx-1' ></i>
-                                    <i class='bx bxl-telegram mx-1'></i>
-                                    <i class='bx bxl-whatsapp mx-1' ></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+//                                 <h1 className="mt-4 text-2xl">Rey John B. Dayo</h1>
+//                                 <p className='mt-1 text-gray-400'>Full Stack Developer</p>
+//                                 <div className="social-media-expert title-project-count text-2xl text-gray-100 mt-3">
+//                                     <i class='bx bxl-facebook-circle mx-1'></i>
+//                                     <i class='bx bxl-instagram-alt mx-1' ></i>
+//                                     <i class='bx bxl-linkedin-square mx-1' ></i>
+//                                     <i class='bx bxl-telegram mx-1'></i>
+//                                     <i class='bx bxl-whatsapp mx-1' ></i>
+//                                 </div>
+//                             </div>
+//                         </a>
+//                     </div>
                     <div className="col border-right-custom p-5 h-100">
                         <a href="/olok">
                             <div className="h-100">
