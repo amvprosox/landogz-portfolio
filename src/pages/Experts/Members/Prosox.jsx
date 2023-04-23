@@ -41,25 +41,25 @@ export const Prosox = () => {
                         <hr className='hr-custom-member my-3' />
                         
                         <h4 className='text-base text-gray-300'>Fullstack   Developer</h4>
-//                         <p className='text-gray-400'>
-//                            IFormatLogic Solution
-//                         </p>
-//                         <div className="d-flex justify-content-between mt-3">
-//                             <small>
-//                                 <p className='text-gray-400'>
-//                                     10/2022 - Present
-//                                 </p>
-//                                 <p className="text-gray-400 mt-2">
-//                                     <em>Achievements/Tasks:</em><br />
-//                                     - DEVELOPING VARIOUS WEBISTES
-//                                 </p>
-//                             </small>
-//                             <small>
-//                                 <p className="text-gray-400">
-//                                     IBA, Zambales
-//                                 </p>
-//                             </small>
-//                         </div>
+                        {/*<p className='text-gray-400'>
+                           IFormatLogic Solution
+                        </p>
+                        <div className="d-flex justify-content-between mt-3">
+                            <small>
+                                <p className='text-gray-400'>
+                                    10/2022 - Present
+                                </p>
+                                <p className="text-gray-400 mt-2">
+                                    <em>Achievements/Tasks:</em><br />
+                                    - DEVELOPING VARIOUS WEBISTES
+                                </p>
+                            </small>
+                            <small>
+                                <p className="text-gray-400">
+                                    IBA, Zambales
+                                </p>
+                            </small>
+                        </div>*/}
                     </div>
 
                     <div className="custom-box-border mt-5 p-4">
