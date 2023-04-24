@@ -14,6 +14,7 @@ import {
 	RouterProvider,
 	Route,
 } from "react-router-dom"
+import { Contact } from './pages/Contact/Contact';
 
 
 const router = createBrowserRouter([
@@ -32,16 +33,18 @@ const router = createBrowserRouter([
 	{
 		path: "prosox",
 		element: <Prosox/>,
-	}
-	,
+	},
 	{
 		path: "olok",
 		element: <Olok/>,
-	}
-	,
+	},
 	{
 		path: "jemuel",
 		element: <Jemuel/>,
+	},
+	{
+		path: "contact",
+		element: <Contact/>,
 	}
 ])
 
