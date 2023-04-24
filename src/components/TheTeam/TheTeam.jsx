@@ -82,12 +82,12 @@ const TheTeam = () => {
           <div className="col">
             <div className="team-card text-center">
               <img
-                src="/images/rey.jpg"
+                src="/images/olok.jpg"
                 alt=""
                 className="img-fluid rounded-3xl"
               />
 
-              <h2 className="text-2xl text-center mt-4">Rey</h2>
+              <h2 className="text-2xl text-center mt-4">Karl</h2>
               <p className="text-gray-400">Full Stack Developer</p>
               <div className="d-flex mt-2 mx-auto text-white justify-content-center text-xl mb-6">
                 <i class="bx bxl-linkedin-square mx-2 mt-3"></i>
