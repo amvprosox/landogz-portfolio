@@ -1,37 +1,52 @@
-import React from 'react'
+import React, { useState } from "react";
 import './ContactUs.css'
 
-const ContactUs = () => {
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Get the form data
+    const formData = new FormData();
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
+
+    // Send the form data to Netlify
+    fetch("https://api.netlify.com/functions/send-email", {
+      method: "POST",
+      body: formData,
+    });
+  };
+
   return (
-    <section id="ContactUs">
-        <div className="container mx-auto text-center">
-            <h1 className='text-5xl md:text-8xl'>Contact us<br /> Now</h1>
+    <div>
+      <h1>Contact Us</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          placeholder="Your name"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />
+        <input
+          type="email"
+          placeholder="Your email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+        />
+        <textarea
+          placeholder="Your message"
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  );
+};
 
-            <a
-              href="/contact"
-              className="btn py-3 px-5 mt-5 rounded-full bg-custom-color font-semibold text-white"
-            >
-              <div className="d-flex svg-trans">
-                <span className="me-2"> CONTACT US</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                  />
-                </svg>
-              </div>
-            </a>
-        </div>
-    </section>
-  )
-}
-
-export default ContactUs
+export default Contact;
