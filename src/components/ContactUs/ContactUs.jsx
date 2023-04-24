@@ -8,7 +8,7 @@ const ContactUs = () => {
             <h1 className='text-5xl md:text-8xl'>Contact us<br /> Now</h1>
 
             <a
-              href=""
+              href="/contact"
               className="btn py-3 px-5 mt-5 rounded-full bg-custom-color font-semibold text-white"
             >
               <div className="d-flex svg-trans">
