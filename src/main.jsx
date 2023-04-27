@@ -1,44 +1,87 @@
 import React from 'react'
+import { gsap } from "gsap";
+import { motion, AnimatePresence } from 'framer-motion';
 import ReactDOM from 'react-dom/client'
+import Homepage from './pages/Homepage'
+import Experts from './pages/Experts/Experts'
+import { Rolan } from './pages/Experts/Members/Rolan'
+import { Prosox } from './pages/Experts/Members/Prosox'
+import { Olok } from './pages/Experts/Members/Olok'
+import { Jemuel } from './pages/Experts/Members/Jemuel'
+import { Contact } from './pages/Contact/Contact';
+import { Date } from './pages/Date/Date';
+import { AboutCompany } from './pages/About/AboutCompany';
+
 import './index.css'
-import HomeSectionOne from './components/HomeSectionOne/HomeSectionOne'
-import Divider from './components/Divider/Divider'
-import Benefits from './components/Benefits/Benefits'
-import Floating from './components/Floating/Floating'
-import ProjectCount from './components/ProjectCount/ProjectCount'
-import Marquee from './components/Marquee/Marquee'
-import AboutCompany from './components/AboutCompany/AboutCompany'
-import OurArtworks from './components/OurArtworks/OurArtworks'
-import CarouselCard from './components/CarouselCard/CarouselCard'
-import TheTeam from './components/TheTeam/TheTeam'
-import Faq from './components/FAQ/Faq'
-import ContactUs from './components/ContactUs/ContactUs'
-import ShortDesc from './components/ShortDesc/ShortDesc'
-import Footer from './components/Footer/Footer'
+
+import { 
+	createBrowserRouter,
+	RouterProvider,
+	Route,
+} from "react-router-dom"
+
+
+
+const router = createBrowserRouter([
+	{
+		path: "/",
+		element: <Homepage/>,
+	},
+	{
+		path: "experts",
+		element: <Experts/>,
+	},
+	{
+		path: "rolan",
+		element: <Rolan/>,
+	},
+	{
+		path: "prosox",
+		element: <Prosox/>,
+	},
+	{
+		path: "olok",
+		element: <Olok/>,
+	},
+	{
+		path: "jemuel",
+		element: <Jemuel/>,
+	},
+	{
+		path: "contact",
+		element: <Contact/>,
+	},
+	{
+		path: "appointment",
+		element: <Date/>,
+	},
+	{
+		path: "about",
+		element: <AboutCompany/>,
+	}
+])
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-	<HomeSectionOne />
-	<Divider />
-	<Benefits />
-	<Divider />
-	<ProjectCount />
-	<Divider />
-	<Marquee />
-	<AboutCompany />
-	<Divider />
-	<OurArtworks />
-	<Divider />
-	<CarouselCard />
-	<Divider />
-	<TheTeam />
-	<Divider />
-	<Faq />
-	<Divider />
-	<ContactUs />
-	<Divider />
-	<ShortDesc />
-	<Footer />
+	<motion.div
+      initial="pageInitial"
+      animate="pageAnimate"
+      variants={{
+        pageInitial: {
+          opacity: 0,
+        },
+        pageAnimate: {
+          opacity: 1,
+          transition: {
+            duration: 0.3,
+          },
+        },
+      }}
+    >
+		<RouterProvider router = {router} >
+			<AnimatePresence />
+		</RouterProvider>
+	</motion.div>
   </React.StrictMode>,
 )

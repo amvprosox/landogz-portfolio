@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "power";
@@ -14,7 +15,7 @@
 
   color-scheme: light dark;
   color: white;
-  background-color: #0e0217;
+  /* background-color: #0e0217; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -35,16 +36,28 @@ body {
   word-wrap: break-word;
 }
 
+.smooth-scroll-container {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+
 .title-font,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h1 span {
   font-family: "power" !important;
   font-weight: 800 !important;
   color: white;
+}
+
+ul li a{ 
+  font-family: "power" !important;
 }
 
 p {

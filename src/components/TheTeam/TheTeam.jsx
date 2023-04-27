@@ -82,12 +82,12 @@ const TheTeam = () => {
           <div className="col">
             <div className="team-card text-center">
               <img
-                src="/images/rey.jpg"
+                src="/images/olok.jpg"
                 alt=""
                 className="img-fluid rounded-3xl"
               />
 
-              <h2 className="text-2xl text-center mt-4">Rolan</h2>
+              <h2 className="text-2xl text-center mt-4">Karl</h2>
               <p className="text-gray-400">Full Stack Developer</p>
               <div className="d-flex mt-2 mx-auto text-white justify-content-center text-xl mb-6">
                 <i class="bx bxl-linkedin-square mx-2 mt-3"></i>
@@ -97,6 +97,31 @@ const TheTeam = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="text-center my-10">
+          <a
+          href="/experts"
+          className="btn py-3 px-5 mt-5 rounded-full bg-custom-color font-semibold text-white"
+          >
+          <div className="d-flex svg-trans">
+              <span className="me-2"> VIEW ALL</span>
+              <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+              >
+              <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+              />
+              </svg>
+          </div>
+          </a>
       </div>
     </section>
   );

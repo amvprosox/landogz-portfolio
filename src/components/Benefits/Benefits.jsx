@@ -2,6 +2,8 @@ import React from 'react'
 import './Benefits.css'
 
 const Benefits = () => {
+
+    
   return (
     <section id="benefits" className='my-32'>
         <div className="container mx-auto">

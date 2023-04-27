@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <section id="Footer">
-      <div className="container">
+      <div className="container py-5">
         <hr className="mb-8" />
         <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 justify-content-between gy-3">
           <div className="col text-center text-md-start">
