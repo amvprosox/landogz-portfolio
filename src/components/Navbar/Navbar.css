@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .bx-menu {
   background-color: #f1f1f1;
   border-radius: 30px;
@@ -63,69 +62,4 @@ ul li a {
   color: white !important;
   background-color: crimson;
   padding: 0.2rem 0.5rem;
-=======
-.bx-menu { 
-    background-color: #f1f1f1;
-    border-radius: 30px;
-    padding: 1rem;
-    position: fixed;
-    top: 3%;
-    left: 5.7%;
-    z-index: 6;
-}
-
-.navbar-custom-style { 
-    position: fixed;
-    height: 120vh;
-    background-image: linear-gradient(96deg, #03001C, #301E67);
-    max-width: 100%;
-    min-width: 100%;
-    z-index: 6;
-    word-wrap: break-word;
-    left: -150%;
-    transition: all .7s;
-}
-
-.navbar-show {
-    left: 0;
-    transition: all .7s;
-}
-
-.ul-position { 
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-inline: auto;
-}
-
-ul li { 
-    margin: 4rem 0;
-    color: white;
-    text-align: center;
-    font-weight: 600;
-    
-}
-
-ul li a { 
-    letter-spacing: 15px;
-}
-
-.hr-navbar { 
-    border-top: 1px solid white;
-}
-
-
-.bx { 
-    cursor: pointer;
-}
-
-.bx-x {
-    position: absolute;
-    margin-left: 2rem;
-    right: 0;
-    color: white !important;
-    background-color: crimson;
-    padding: .2rem .5rem;
->>>>>>> 3acbac4da4f4cfdf65b88f17619fa7f8e1f65a23
 }
